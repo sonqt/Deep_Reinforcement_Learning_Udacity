@@ -4,7 +4,7 @@
 
 ## 1. Implementation
 
-The core idea that help my implemented agent to successfully solve this complicated environment is *[Deep Q-learning]([Human-level control through deep reinforcement learning (storage.googleapis.com)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf))*, a reinforcement learning algorithm first introduced by Deepmind (Mnih et al.) in 2015. 
+The core idea that help my implemented agent to successfully solve this complicated environment is *[Deep Q-learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)*, a reinforcement learning algorithm first introduced by Deepmind (Mnih et al.) in 2015. 
 
 Although there are many versions of improved *Deep Q-learning* like *[Double Deep Q-network](https://arxiv.org/pdf/1509.06461.pdf)*, *[Prioritized Replay](https://arxiv.org/pdf/1509.06461.pdf)* or *[Dueling Q-network](https://arxiv.org/pdf/1511.06581.pdf)*, I believe that the original version of *Deep Q-learning* is enough for the agent to successfully solve this environment. This is because of the simplicity of the environment: Instead of proving learning agents with images as the states of agents, the environment provides agents with 37-dimensional vectors as states. This makes the learning process much **easier** in comparison with the environments used when evaluating the superior performances of *Double Deep Q-network*, *Prioritized Replay* or *Dueling Q-network* over that of original *Deep Q network*. 
 
