@@ -48,7 +48,7 @@ There are 2 novel points in this algorithm to take care about:
 
 ## 2. Result
 
-![dqn_scores](D:\Deep_Reinforcement_Learning_Udacity\Value Based Method\Project\result\dqn_scores.png)
+![dqn_scores](Deep_Reinforcement_Learning_Udacity\Value Based Method\Project\result\dqn_scores.png)
 
 ## 3. Further Improvement
 
