@@ -40,8 +40,8 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 
 ## 3. Code description
 
-- `dqn_agent.py`: code for the agent will be used in solving the mentioned environment.
+- `agent.py`: code for the agent will be used in solving the mentioned environment.
 - `model.py`: code containing building code of deep Q-Network used as the function approximator in the agent.
-- `Navigation_solution.ipynb`: notebook for running the training code.
+- `Navigation.ipynb`: notebook for running the training code.
 - `checkpoint.pt`: weights of successfully performed approximator model.
 

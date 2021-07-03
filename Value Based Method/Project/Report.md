@@ -46,9 +46,20 @@ There are 2 novel points in this algorithm to take care about:
 |        minimum value of epsilon         |  0.01  |
 |              epsilon decay              | 0.995  |
 
+### 1.3 Model architecture
+
+|         Layer         | number of units | Activation function |
+| :-------------------: | :-------------: | :-----------------: |
+|      Input layer      |       37        |                     |
+| $1^{st}$ hidden layer |       64        |        ReLU         |
+| $2^{nd}$ hidden layer |       64        |        ReLU         |
+|     Output layer      |        4        |                     |
+
 ## 2. Result
 
 ![dqn_scores](result/dqn_scores.png)
+
+*<u>**Note:**</u>* The agent only stop learning when its average score over 100 recently continuous episodes reaches $15.0$. This is also a challenge for my designed agent.
 
 ## 3. Further Improvement
 
