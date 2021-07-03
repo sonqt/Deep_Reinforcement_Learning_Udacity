@@ -10,7 +10,7 @@ Although there are many versions of improved *Deep Q-learning* like *[Double Dee
 
 ### 1.1 Deep Q-learning
 
-The main idea behind this algorithm is using the nonlinear function performed by CNN+ReLU+FFN to estimate the Q (state-action value) function in Reinforcement Learning. 
+The main idea behind the algorithm used in this project is using the nonlinear function performed by Deep Neural Network with 2 hidden layers of 64 units with ReLU (Rectified Linear Units) function as activation to estimate the Q (state-action value) function in Reinforcement Learning. 
 
 There are 2 novel points in this algorithm to take care about:
 
