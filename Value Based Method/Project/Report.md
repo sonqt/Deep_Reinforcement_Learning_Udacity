@@ -55,5 +55,5 @@ There are 2 novel points in this algorithm to take care about:
 * Improved versions of DQN:
   * Although the original version of DQN perform quite well in this environment as it can reach the average score of 15.0 in just 654 episodes, I believe, from perspectives of a learner, *[Double Deep Q-network](https://arxiv.org/pdf/1509.06461.pdf)*, *[Prioritized Replay](https://arxiv.org/pdf/1509.06461.pdf)* or *[Dueling Q-network](https://arxiv.org/pdf/1511.06581.pdf)* can also reach this performance but need more episodes, so more computational cost. To validate this hypothesis, I will implement these ideas in a near future.
 
-* Applying some searching strategies for best-performed hyperparameters will also help agents much in learning to solve this environment.
+* Applying some searching strategies (*[Bergstra and Bengio, 2012](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf)*; *[Petro Liashchynskyi and Pavlo Liashchynskyi, 2019](https://arxiv.org/pdf/1912.06059.pdf))* for best-performed hyperparameters will also help agents much in learning to solve this environment.
 
