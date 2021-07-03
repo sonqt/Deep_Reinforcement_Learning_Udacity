@@ -20,15 +20,15 @@ There are 2 novel points in this algorithm to take care about:
 
         The newly randomized action in the transition (state+action ⇒ reward+new_state) is selected with the continuingly updated policy (this can be $\epsilon$-greedy or greedy policy).
 
-        The memory $D$ is then used as the labeled data in training the CNN network to estimate the  function, but this is only within a step, after that step, the memory would be updated.
+        The memory $D$ is then used as the labeled data in training the Deep Neural Network to estimate the  function, but this is only within a step, after that step, the memory would be updated.
 
   * *Target Network*
 
-      * The main idea behind this target network is to prevent the CNN network (which is the core of deep Q-learning) to diverge during the training session.
+      * The main idea behind this target network is to prevent the  Deep Neural Network (which is the core of deep Q-learning) to diverge during the training session.
 
-        This target network is used to estimate the future reward (from step ***j+1***). Plus with the reward ***r*** at step ***j***, it give the estimate Q-value for the action chosen by the policy ***(y_j)***. This  Q-value is then passed into the loss function of the CNN network, the effort to minimize the mean-squared error loss would then optimize the performance of the deep network in estimating Q-values.
+        This target network is used to estimate the future reward (from step ***j+1***). Plus with the reward ***r*** at step ***j***, it give the estimate Q-value for the action chosen by the policy ***(y_j)***. This  Q-value is then passed into the loss function of the Deep Neural Network, the effort to minimize the mean-squared error loss would then optimize the performance of the deep network in estimating Q-values.
 
-        This network is updated every step. In other word, if we consider each time the parameters in CNN network update it produce a new network and then we store all those networks into a list, the current network is at index ***i***, then the index of current target network is ***i-1***.
+        This network is updated every step. In other word, if we consider each time the parameters in Deep Neural Network update it produce a new network and then we store all those networks into a list, the current network is at index ***i***, then the index of current target network is ***i-1***.
 
 ### 1.2 Hyper-parameters
 
