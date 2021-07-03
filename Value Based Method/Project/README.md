@@ -45,3 +45,7 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 - `Navigation.ipynb`: notebook for running the training code.
 - `checkpoint.pt`: weights of successfully performed approximator model.
 
+## 4. Instructions
+
+Follow the code in `Navigation.ipynb` to use code in `model.py` and `agent.py` for training agents to solve the mentioned environment.
+
