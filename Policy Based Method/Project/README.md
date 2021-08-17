@@ -65,3 +65,14 @@ For this project, you will **not** need to install Unity - this is because we ha
 (*For AWS*) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment. You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (*To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.*)
 
 Then, place the file in the `p2_continuous-control/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+
+### Dependencies
+
+Please check the [dependencies]([udacity/deep-reinforcement-learning: Repo for the Deep Reinforcement Learning Nanodegree program (github.com)](https://github.com/udacity/deep-reinforcement-learning#dependencies)) section to set up your python environment.
+
+## 5. Instructions
+
+Follow the code written in `Continuous_Control.ipynb` for training the agent. 
+
+The weights of 2 networks in trained agent have been saved in 2 files: `checkpoint_actor.pth` and `checkpoint_critic.pth`. You can [load models using Pytorch]([Saving and loading models for inference in PyTorch — PyTorch Tutorials 1.9.0+cu102 documentation](https://pytorch.org/tutorials/recipes/recipes/saving_and_loading_models_for_inference.html)) to deploy the trained agents in your own code.
+
