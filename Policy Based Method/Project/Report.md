@@ -35,11 +35,41 @@ Besides, this algorithm also use Experience Replay:
 
 ***<u>Note:</u>*** For more information about models' architecture, read `model.py`
 
-## 3. Result
+## 3. Model Architecture
+
+### 3.1 Actor
+
+| Layer               |     # units     | Activation function |
+| ------------------- | :-------------: | :-----------------: |
+| Batch Normalization |        _        |          _          |
+| Input layer         | state_size (33) |          _          |
+| First hidden layer  |       256       |        ReLU         |
+| Second hidden layer |       128       |        ReLU         |
+| Output layer        | action_size (4) |        Tanh         |
+
+### 3.2 Critic
+
+| Layer               |        # units        | Activation function |
+| ------------------- | :-------------------: | :-----------------: |
+| Batch Normalization |           _           |          _          |
+| Input layer         |    state_size (33)    |          _          |
+| First hidden layer  |          256          |     Leaky_ReLU      |
+| Concatenation       | 256+action_size (260) |          _          |
+| Second hidden layer |          128          |     Leaky_ReLU      |
+| Third hidden layer  |          128          |     Leaky_ReLU      |
+| Output layer        |           1           |          _          |
+
+***<u>Note:</u>*** All Leaky_ReLU function in Critic use the default `negative_slope` of Pytorch (0.01).
+
+## 4. Result
 
 ![image-20210818000140313](..\Project\score.png)
 
-## 4. Further Improvement
+The average reward (over 100 episodes) of the trained agent reached +30 after 190 episodes.
+
+**<u>*Note:*</u>** This is also reported in `Continuous_Control.ipynb`.
+
+## 5. Further Improvement
 
 - Some recommended algorithms by Udacity teaching team: TRPO, PPO, A3C, A2C
 - Some small techniques like [Batch Normalization]([1502.03167.pdf (arxiv.org)](https://arxiv.org/pdf/1502.03167.pdf)) have helped a lot in training process. I will try some other methods like [Weight Normalization]([[1602.07868\] Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks (arxiv.org)](https://arxiv.org/abs/1602.07868)) or other method of weight initialization.
