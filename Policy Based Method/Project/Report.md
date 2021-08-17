@@ -33,8 +33,6 @@ Besides, this algorithm also use Experience Replay:
 | Number of max training episodes                   | 2000  |
 | Max number of timesteps per episode               | 1000  |
 
-***<u>Note:</u>*** For more information about models' architecture, read `model.py`
-
 ## 3. Model Architecture
 
 ### 3.1 Actor
