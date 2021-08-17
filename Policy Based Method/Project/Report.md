@@ -61,7 +61,7 @@ Besides, this algorithm also use Experience Replay:
 
 ## 4. Result
 
-![image-20210818000140313](..\Project\score.png)
+![Score over episodes](..\score.png)
 
 The average reward (over 100 episodes) of the trained agent reached +30 after 190 episodes.
 
