@@ -68,7 +68,7 @@ Then, place the file in the `p2_continuous-control/` folder in the DRLND GitHub 
 
 ### Dependencies
 
-Please check the [dependencies]([udacity/deep-reinforcement-learning: Repo for the Deep Reinforcement Learning Nanodegree program (github.com)](https://github.com/udacity/deep-reinforcement-learning#dependencies)) section to set up your python environment.
+Please check the [dependencies](https://github.com/udacity/deep-reinforcement-learning#dependencies) section to set up your python environment.
 
 ## 5. Instructions
 
