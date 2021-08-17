@@ -4,7 +4,7 @@
 
 ## 1. Implementation
 
-The core idea that help my implemented agent to successfully solve this complicated environment is [Deep Deterministic Policy Gradient]([1509.02971.pdf (arxiv.org)](https://arxiv.org/pdf/1509.02971.pdf)), a reinforcement learning algorithm first introduced by Deepmind (Lillicrap et al.) in 2015.
+The core idea that help my implemented agent to successfully solve this complicated environment is [Deep Deterministic Policy Gradient](https://arxiv.org/pdf/1509.02971.pdf), a reinforcement learning algorithm first introduced by Deepmind (Lillicrap et al.) in 2015.
 
 ### Deep Deterministic Policy Gradient
 
