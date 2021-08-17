@@ -12,7 +12,8 @@ class Actor(nn.Module):
             state_size (int): Dimension of each state
             action_size (int): Dimension of each action
             seed (int): Random seed
-            hidden_size (int): Number of nodes in hidden layers
+            fc1 (int): Number of nodes in the first hidden layer
+            fc2 (int): Number of nodes in the second hidden layer
         """
         super(Actor, self).__init__()
         self.seed = torch.manual_seed(seed)
@@ -48,10 +49,10 @@ class Critic(nn.Module):
         ======
             state_size (int): Dimension of each state
             action_size (int): Dimension of each action
-            seed (int): Random seed
-            fcs1_units (int): Number of nodes in the first hidden layer
-            fc2_units (int): Number of nodes in the second hidden layer
-            hidden_size:
+            seed (int): Random seed for torch
+            fc1 (int): Number of nodes in the first hidden layer
+            fc2 (int): Number of nodes in the second hidden layer
+            fc3 (int): Number of nodes in the third hidden layer
         """
         super(Critic, self).__init__()
         self.seed = torch.manual_seed(seed)
