@@ -2,7 +2,9 @@
 
 ***Author:*** Son Q Tran
 
-***Organization:*** Denison University
+***School:*** Denison University
+
+***Organization:*** [The UIT NLP Group](https://sites.google.com/uit.edu.vn/uit-nlp)
 
 ***Email:*** tran_s2@denison.edu
 
