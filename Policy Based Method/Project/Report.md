@@ -4,7 +4,7 @@
 
 ## 1. Implementation
 
-The core idea that help my implemented agent to successfully solve this complicated environment is [Deep Deterministic Policy Gradient]([1509.02971.pdf (arxiv.org)](https://arxiv.org/pdf/1509.02971.pdf)), a reinforcement learning algorithm first introduced by Deepmind (Lillicrap et al.) in 2015.
+The core idea that help my implemented agent to successfully solve this complicated environment is [Deep Deterministic Policy Gradient](https://arxiv.org/pdf/1509.02971.pdf), a reinforcement learning algorithm first introduced by Deepmind (Lillicrap et al.) in 2015.
 
 ### Deep Deterministic Policy Gradient
 
@@ -61,7 +61,7 @@ Besides, this algorithm also use Experience Replay:
 
 ## 4. Result
 
-![image-20210818000140313](..\Project\score.png)
+![Score over episodes](score.png)
 
 The average reward (over 100 episodes) of the trained agent reached +30 after 190 episodes.
 
@@ -70,5 +70,5 @@ The average reward (over 100 episodes) of the trained agent reached +30 after 19
 ## 5. Further Improvement
 
 - Some recommended algorithms by Udacity teaching team: TRPO, PPO, A3C, A2C
-- Some small techniques like [Batch Normalization]([1502.03167.pdf (arxiv.org)](https://arxiv.org/pdf/1502.03167.pdf)) have helped a lot in training process. I will try some other methods like [Weight Normalization]([[1602.07868\] Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks (arxiv.org)](https://arxiv.org/abs/1602.07868)) or other method of weight initialization.
+- Some small techniques like [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) have helped a lot in training process. I will try some other methods like [Weight Normalization](https://arxiv.org/abs/1602.07868) or other method of weight initialization.
 - [Prioritized Replay](https://arxiv.org/pdf/1511.05952.pdf) will also work really well in solving this problem.

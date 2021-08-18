@@ -68,11 +68,11 @@ Then, place the file in the `p2_continuous-control/` folder in the DRLND GitHub 
 
 ### Dependencies
 
-Please check the [dependencies]([udacity/deep-reinforcement-learning: Repo for the Deep Reinforcement Learning Nanodegree program (github.com)](https://github.com/udacity/deep-reinforcement-learning#dependencies)) section to set up your python environment.
+Please check the [dependencies](https://github.com/udacity/deep-reinforcement-learning#dependencies) section to set up your python environment.
 
 ## 5. Instructions
 
 Follow the code written in `Continuous_Control.ipynb` for training the agent. 
 
-The weights of 2 networks in trained agent have been saved in 2 files: `checkpoint_actor.pth` and `checkpoint_critic.pth`. You can [load models using Pytorch]([Saving and loading models for inference in PyTorch — PyTorch Tutorials 1.9.0+cu102 documentation](https://pytorch.org/tutorials/recipes/recipes/saving_and_loading_models_for_inference.html)) to deploy the trained agents in your own code.
+The weights of 2 networks in trained agent have been saved in 2 files: `checkpoint_actor.pth` and `checkpoint_critic.pth`. You can [load models using Pytorch](https://pytorch.org/tutorials/recipes/recipes/saving_and_loading_models_for_inference.html) to deploy the trained agents in your own code.
 
